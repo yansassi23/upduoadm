@@ -9,7 +9,8 @@ import {
   Shield,
   BarChart3,
   Crown,
-  Diamond
+  Diamond,
+  Trophy
 } from 'lucide-react'
 
 interface SidebarProps {
@@ -23,6 +24,7 @@ const menuItems = [
   { id: 'matches', icon: Heart, label: 'Matches' },
   { id: 'messages', icon: MessageCircle, label: 'Mensagens' },
   { id: 'premiumSignups', icon: Crown, label: 'Compras Premium' },
+  { id: 'dailyWinners', icon: Trophy, label: 'Ganhadores Diários' },
   { id: 'diamondWithdrawals', icon: Diamond, label: 'Saques de Diamantes' },
   { id: 'analytics', icon: BarChart3, label: 'Analytics' },
   { id: 'reports', icon: TrendingUp, label: 'Relatórios' },

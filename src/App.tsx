@@ -7,6 +7,7 @@ import PremiumSignupsManagement from './components/PremiumSignupsManagement'
 import DiamondWithdrawalsManagement from './components/DiamondWithdrawalsManagement'
 import AnalyticsDashboard from './components/AnalyticsDashboard'
 import ModerationManagement from './components/ModerationManagement'
+import DailyWinnersManagement from './components/DailyWinnersManagement'
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
@@ -21,6 +22,8 @@ function App() {
         return <MatchesManagement />
       case 'premiumSignups':
         return <PremiumSignupsManagement />
+      case 'dailyWinners':
+        return <DailyWinnersManagement />
       case 'diamondWithdrawals':
         return <DiamondWithdrawalsManagement />
       case 'messages':
